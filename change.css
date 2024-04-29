@@ -1,0 +1,90 @@
+.mv-saitama-grid {
+  overflow: hidden;
+  position: relative;
+  display: grid;
+  grid-template-areas:
+    "saitamaAreaOne saitamaAreaOne saitamaAreaOne saitamaAreaOne saitamaFive saitamaFive saitamaFive saitamaFive saitamaFive saitamaSix saitamaSix saitamaSix saitamaSix saitamaSix"
+    "saitamaAreaOne saitamaAreaOne saitamaAreaOne saitamaAreaOne saitamaFive saitamaFive saitamaFive saitamaFive saitamaFive saitamaSeven saitamaSeven saitamaSeven saitamaEight saitamaEight"
+    "saitamaAreaOne saitamaAreaOne saitamaAreaOne saitamaAreaOne saitamaFive saitamaFive saitamaFive saitamaFive saitamaFive saitamaSeven saitamaSeven saitamaSeven saitamaEight saitamaEight"
+    "saitamaAreaOne saitamaAreaOne saitamaAreaOne saitamaAreaOne saitamaFive saitamaFive saitamaFive saitamaFive saitamaFive gridSpace saitamaNine saitamaNine saitamaNine saitamaNine"
+    "changeOne changeOne changeOne changeOne changeOne changeOne changeOne changeOne changeOne changeOne changeTwo changeTwo changeTwo changeThree"
+    "changeOne changeOne changeOne changeOne changeOne changeOne changeOne changeOne changeOne changeOne changeTwo changeTwo changeTwo changeThree"
+    "saitamaChallange saitamaChallange saitamaChallange saitamaChallange saitamaChallange saitamaChallange saitamaChallange saitamaChallange . . changeTwo changeTwo changeTwo changeThree"
+    "saitamaChallange saitamaChallange saitamaChallange saitamaChallange saitamaChallange saitamaChallange saitamaChallange saitamaChallange . . changeTwo changeTwo changeTwo changeThree"
+    "saitamaChallange saitamaChallange saitamaChallange saitamaChallange saitamaChallange saitamaChallange saitamaChallange saitamaChallange changeSix changeSix changeSix changeSix changeSix changeThree";
+}
+
+.saitama-linkarea-one {
+  grid-area: saitamaAreaOne;
+}
+
+.change-area-five {
+  grid-area: saitamaChallange;
+}
+
+.saitama-linkarea-one > a,
+.saitama-linkarea-one > a {
+  display: flex;
+}
+
+.change-area-five > a {
+  align-items: center;
+}
+
+.mv-saitama-grid .zoom-in:hover .zoom-business {
+  width: 40vw;
+  background: #016c1c;
+  padding: 5px;
+}
+
+.mv-saitama-grid .zoom-in.color-change.remove-bg:hover {
+  background: unset;
+}
+
+.company-mv .saitama-linkarea-one > a:hover .font-30 {
+  font-size: 3.2rem;
+}
+
+/* bk */
+grid-template-areas:
+  "saitamaOne saitamaTwo saitamaThree saitamaFour saitamaFive saitamaFive saitamaFive saitamaFive saitamaFive saitamaSix saitamaSix saitamaSix saitamaSix saitamaSix"
+  "saitamaOne saitamaTwo saitamaThree saitamaFour saitamaFive saitamaFive saitamaFive saitamaFive saitamaFive saitamaSeven saitamaSeven saitamaSeven saitamaEight saitamaEight"
+  "saitamaOne saitamaTwo saitamaThree saitamaFour saitamaFive saitamaFive saitamaFive saitamaFive saitamaFive saitamaSeven saitamaSeven saitamaSeven saitamaEight saitamaEight"
+  "saitamaOne saitamaTwo saitamaThree saitamaFour saitamaFive saitamaFive saitamaFive saitamaFive saitamaFive gridSpace saitamaNine saitamaNine saitamaNine saitamaNine"
+  "changeOne changeOne changeOne changeOne changeOne changeOne changeOne changeOne changeOne changeOne changeTwo changeTwo changeTwo changeThree"
+  "changeOne changeOne changeOne changeOne changeOne changeOne changeOne changeOne changeOne changeOne changeTwo changeTwo changeTwo changeThree"
+  "changeFive changeFive changeFive changeFive changeFive changeFive changeFour changeFour . . changeTwo changeTwo changeTwo changeThree"
+  "changeFive changeFive changeFive changeFive changeFive changeFive changeFour changeFour . . changeTwo changeTwo changeTwo changeThree"
+  "changeFive changeFive changeFive changeFive changeFive changeFive changeFour changeFour changeSix changeSix changeSix changeSix changeSix changeThree";
+/* bk */
+
+@media screen and (max-width: 768px) {
+  /* bk */
+  .mv-saitama-grid {
+    grid-template-areas:
+      "saitamaOne saitamaOne saitamaTwo saitamaThree saitamaFour . ."
+      "saitamaSix saitamaSix saitamaSix saitamaSix saitamaSix saitamaSix saitamaSix"
+      "saitamaSeven saitamaEight saitamaEight saitamaEight saitamaEight saitamaEight ."
+      "saitamaFive saitamaFive saitamaFive saitamaFive saitamaFive saitamaFive saitamaFive"
+      "changeOne changeOne changeOne changeOne changeOne changeOne changeOne"
+      "saitamaNine saitamaNine saitamaNine saitamaNine saitamaNine saitamaNine saitamaNine"
+      "changeTwo changeTwo changeTwo changeTwo changeTwo changeTwo changeTwo"
+      "changeSix changeSix changeSix changeSix changeSix changeSix changeThree"
+      "changeFive changeFive changeFive changeFive changeFive changeFour changeThree"
+      "changeFive changeFive changeFive changeFive changeFive changeFour changeThree";
+  }
+  /* bk */
+  .mv-saitama-grid {
+    grid-template-areas:
+      "saitamaAreaOne saitamaAreaOne saitamaAreaOne saitamaAreaOne saitamaAreaOne . ."
+      "saitamaSix saitamaSix saitamaSix saitamaSix saitamaSix saitamaSix saitamaSix"
+      "saitamaSeven saitamaEight saitamaEight saitamaEight saitamaEight saitamaEight ."
+      "saitamaFive saitamaFive saitamaFive saitamaFive saitamaFive saitamaFive saitamaFive"
+      "changeOne changeOne changeOne changeOne changeOne changeOne changeOne"
+      "saitamaNine saitamaNine saitamaNine saitamaNine saitamaNine saitamaNine saitamaNine"
+      "changeTwo changeTwo changeTwo changeTwo changeTwo changeTwo changeTwo"
+      "changeSix changeSix changeSix changeSix changeSix changeSix changeThree"
+      "saitamaChallange saitamaChallange saitamaChallange saitamaChallange saitamaChallange saitamaChallange changeThree"
+      "saitamaChallange saitamaChallange saitamaChallange saitamaChallange saitamaChallange saitamaChallange changeThree";
+  }
+}
